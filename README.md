@@ -16,6 +16,8 @@
 ## Summary
   I don't know much about coding (yet, hopefully), but a couple of things I have heard are that you're going to be reading more code than you write, and that refactoring is one of the most crucial programming skills to have. I recently watched a video in which a person wrote a piece of code that took almost a month to complete. In the video he explains that he reached out to subscribers to see if they could help, and they ended up lowering that time down to under a second after a couple of weeks. While that may be an extreme example, It shows how important clean and efficient code is to your computer and your time.
 
-As far as the time save for our project I only noticed about a 5 millisecond decrease in the total time it took for my code to run on each year. ![2018 time](VBA_Challenge_2018.png) ![2017 time](VBA_Challenge_2017.png)
+As far as the time save for our project I only noticed about a 5 millisecond decrease in the total time it took for my code to run on each year. 
+
+![2018 time](VBA_Challenge_2018.png) ![2017 time](VBA_Challenge_2017.png)
 
 Both of the screenshots are form the refactored code, but curiously the analysis for 2017 took a bit longer. The only bit of refactoring I could think to do before I started the challenge was to get rid of the yearValue module and just put the input box and initialization of the yearValue variable in the AllStocksAnalysis module. In the end that is exactly what the refactoring assignment did, so that is an encouraging sign.
